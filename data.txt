@@ -1,0 +1,1 @@
+GET /?ssid=MERCURY_2D2A&password=WANG54321 HTTP
