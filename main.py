@@ -6,23 +6,15 @@ import switch
 import time
 import re
 
-# SERVER ='WCYKSR00E2.iotcloud.tencentdevices.com'  #MQTT Server
-# CLIENT_ID = "WCYKSR00E2espdevice1"   #设备ID
-# #PORT=1883
-# username='WCYKSR00E2espdevice1;12010126;ZTGE8;1635875915'
-# password='d476398cb2e0fd55c31592d62fe95d19205bee5ec336b4dbd57a7d78ef8ddaa5;hmacsha256'
-#  
-# publish_TOPIC = 'WCYKSR00E2/espdevice1/data'
-# subscribe_TOPIC ='WCYKSR00E2/espdevice1/data'
-
-SERVER ='a1NPEdZKWZf.iot-as-mqtt.cn-shanghai.aliyuncs.com'  #MQTT Server
+#根据实际情况填写
+SERVER ='a1XXXXXXXXX.iot-as-mqtt.cn-shanghai.aliyuncs.com'  #MQTT Server
 CLIENT_ID = "12345|securemode=3,signmethod=hmacsha1|"   #设备ID
 #PORT=1883
-username='devicel1&a1NPEdZKWZf'
-password='2D4C7C04AFA821FA23A62C147DE2DB8F43A92C54'
+username='devicel1&a1XXXXXXXXX'
+password='2DXXXXXXXXXXXXXXXX3A62C1XXXXXF43A92C54'
  
-publish_TOPIC = '/sys/a1NPEdZKWZf/devicel1/thing/event/property/post'
-subscribe_TOPIC ='/sys/a1NPEdZKWZf/devicel1/thing/service/property/set'
+publish_TOPIC = '/sys/a1XXXXXXXXX/devxxxx/thing/event/property/post'
+subscribe_TOPIC ='/sys/a1XXXXXXXXX/devxxxx/thing/service/property/set'
 
 client=None
 
